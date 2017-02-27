@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="mode_draw">Drawing Mode</string>
+    <string name="mode_draw_black">Black</string>
+    <string name="mode_draw_blue">Blue</string>
+    <string name="mode_draw_green">Green</string>
+    <string name="mode_draw_red">Red</string>
+    <string name="mode_delete">Deleting Mode</string>
+    <string name="mode_move">Moving Mode</string>
+</resources>

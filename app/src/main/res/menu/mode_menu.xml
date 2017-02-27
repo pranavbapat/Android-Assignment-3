@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mode_draw"
+        android:title="Drawing Mode">
+        <menu >
+            <group android:id="@+id/mode_draw_color_group" android:checkableBehavior="single">
+                <item android:id="@+id/mode_draw_black" android:title="@string/mode_draw_black" android:checked="true"/>
+                <item android:id="@+id/mode_draw_blue" android:title="@string/mode_draw_blue" />
+                <item android:id="@+id/mode_draw_green" android:title="@string/mode_draw_green" />
+                <item android:id="@+id/mode_draw_red" android:title="@string/mode_draw_red" />
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/mode_delete"
+        android:title="@string/mode_delete" />
+    <item android:id="@+id/mode_move"
+        android:title="@string/mode_move" />
+</menu>
